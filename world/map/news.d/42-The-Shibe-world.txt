@@ -1,0 +1,27 @@
+{title:The Shibe World alpha test}
+{date:2014-11-1}
+
+Join the The Shibe World test now!
+
+The Shibe World is an mmo rpg under developent
+that accepts dogecoin trasnactions in-game. So
+far you can:
+{ul}
+{li}Deposit doges to your character wallet{/li}
+{li}Withdraw doges to any address{/li}
+{li}Tip other players{/li}
+{/ul}
+
+With your help we can add many more features!
+
+Notice this is project is currently under an
+unstable phase so there may be character bugs
+or character resets.
+
+Stay tunned at: {link:http://dogefun.com/theshibeworld}
+
+{red}so mmo{/red}       {blue}very rpg{/blue}
+               {green}amaze{/green}
+      {blue}such currency{/blue}    {red}wow{/red}
+
+{author:The Shibe World devs}
