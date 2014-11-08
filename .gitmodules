@@ -1,6 +1,6 @@
 [submodule "client-data"]
 	path = client-data
-	url = git://github.com/rosalila/tmwa-client-data.git
+	url = git://github.com/theshibeworld/tmwa-client-data.git
 [submodule "tools"]
 	path = tools
-	url = git://github.com/rosalila/tmw-tools.git
+	url = git://github.com/theshibeworld/tmw-tools.git
