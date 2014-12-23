@@ -131,3 +131,4 @@ import: npc/068-2/_import.txt
 import: npc/069-1/_import.txt
 import: npc/069-2/_import.txt
 import: npc/botcheck/_import.txt
+import: npc/doge-1/_import.txt

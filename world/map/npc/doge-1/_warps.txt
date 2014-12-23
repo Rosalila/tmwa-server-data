@@ -1,0 +1,4 @@
+// This file is generated automatically. All manually changes will be removed when running the Converter.
+// such moon warps
+
+doge-1.gat,39,49|warp|To Tulimshar|0,0,001-1.gat,44,53

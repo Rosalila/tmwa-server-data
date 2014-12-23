@@ -6,3 +6,4 @@
 001-1.gat,125,21|warp|To North Tulimshar|0,-1,021-1.gat,136,146
 001-1.gat,32,70|warp|To Tulimshar Indoor|-1,-1,001-2.gat,25,34
 001-1.gat,75,40|warp|To Tulimshar Indoor|-1,-1,001-2.gat,71,72
+001-1.gat,44,48|warp|To Doge|0,-1,doge-1.gat,39,53

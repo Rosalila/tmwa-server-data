@@ -1,0 +1,72 @@
+//
+
+doge-1.gat,45,50,0|script|Doge ATM|419,
+{
+    callfunc "ClearVariables";
+    set @npcname$, "Doge ATM";
+    set @Character$, strcharinfo(0);
+
+    mes "\"such ATM\"";
+    mes "\"shibe help?\"";
+
+    menu
+        "Tip", L_Tip,
+        "Deposit", L_Dep,
+        "Balance", L_Bal,
+        "Withdraw", L_With,
+        "Nevermind", L_End;
+
+    L_Tip:
+
+        mes "\"very amount:\"";
+        input @Amount;
+
+        mes "\"such character:\"";
+        input @Character_to$;
+
+        dogeTip @Return$, @Character$, @Amount, @Character_to$;
+
+        mes @Return$;
+
+        goto L_End;
+
+    L_Dep:
+
+        set @Return$, "";
+
+        dogeDeposit @Return$, @Character$;
+
+        mes @Return$;
+
+        goto L_End;
+
+    L_Bal:
+        set @Return$, "";
+
+        dogeBalance @Return$, @Character$;
+
+        mes @Return$;
+
+        goto L_End;
+
+    L_With:
+
+        mes "\"very amount:\"";
+        input @Amount;
+
+        set @Return$, "";
+
+        mes "\"such address:\"";
+        input @Address$;
+
+        dogeWithdraw @Return$, @Character$, @Amount, @Address$;
+
+        mes @Return$;
+
+        goto L_End;
+    
+    L_End:
+    mes "\"such goodbye\"";
+    set @npcname$, "";
+    close;
+}

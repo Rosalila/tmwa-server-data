@@ -129,3 +129,4 @@
 069-1.gat#069-1.wlk#
 069-2.gat#069-2.wlk#
 botcheck.gat#botcheck.wlk#
+doge-1.gat#doge-1.wlk#
