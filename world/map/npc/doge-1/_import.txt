@@ -4,3 +4,4 @@ map: doge-1.gat
 npc: npc/doge-1/_mobs.txt
 npc: npc/doge-1/_warps.txt
 npc: npc/doge-1/dogeatm.txt
+npc: npc/doge-1/dogefaucet.txt
