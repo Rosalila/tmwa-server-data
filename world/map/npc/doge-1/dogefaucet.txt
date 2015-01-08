@@ -22,10 +22,10 @@ doge-1.gat,45,60,0|script|Faucet|420,
         goto L_DOGES_DOWN;
 
     //Print info
-    mes "faucet balance:";
+    mes "Faucet balance:";
     mes @FaucetBalance$;
 
-    mes "pls send doges to the faucet:";
+    mes "Please send doges to the faucet:";
     mes @FaucetDeposit$;
     mes "or";
     mes "Tip the character named Faucet in the ATM";
@@ -64,26 +64,24 @@ doge-1.gat,45,60,0|script|Faucet|420,
 
     set DailyQuestPoints, 0;
 
-    mes "pls tomorrow";
+    mes "Please come back tomorrow.";
     goto L_End;
 
 L_NO_DAILYQUESTPOINTS:
     mes "You have not enough Daily Quest Points";
-    mes "pls tomorrow";
-    mes "shibe sorry";
+    mes "Please come back tomorrow.";
     goto L_End;
 
 L_NO_DOGES:
-    mes "I have not enough doges";
-    mes "shibe sorry";
+    mes "Sorry, I have not enough doges.";
     goto L_End;
 
 L_DOGES_DOWN:
-    mes "shibe sorry, dogecoin server down";
+    mes "Sorry, Dogecoin server down.";
     goto L_End;
 
 L_End:
-    //mes "\"such goodbye\"";
+    //mes "\"shibe goodbye\"";
     set @npcname$, "";
     close;
 }

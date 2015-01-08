@@ -3,5 +3,5 @@ log/
 gm.log.*
 online.*
 /converter.txt
-world/map/doge/
+world/map/doge/*
 world/map/dogecoind
