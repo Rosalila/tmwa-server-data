@@ -1,0 +1,2 @@
+doge-arena.gat|mapflag|town
+doge-arena.gat|mapflag|resave|doge-1,39,53

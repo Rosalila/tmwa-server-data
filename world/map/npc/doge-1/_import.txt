@@ -5,4 +5,5 @@ npc: npc/doge-1/_mobs.txt
 npc: npc/doge-1/_warps.txt
 npc: npc/doge-1/dogeatm.txt
 npc: npc/doge-1/dogefaucet.txt
+npc: npc/doge-1/mapflags.txt
 npc: npc/doge-1/toughomir.txt
