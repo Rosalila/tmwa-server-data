@@ -4,4 +4,5 @@ map: doge-2.gat
 npc: npc/doge-2/_mobs.txt
 npc: npc/doge-2/_warps.txt
 npc: npc/doge-2/brahdomir.txt
+npc: npc/doge-2/mapflags.txt
 npc: npc/doge-2/yolomir.txt

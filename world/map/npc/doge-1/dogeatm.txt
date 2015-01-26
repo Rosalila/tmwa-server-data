@@ -1,6 +1,6 @@
 //
 
-doge-1.gat,50,50,0|script|Doge ATM|419,
+doge-1.gat,50,50,0|script|Doge ATM|900,
 {
     callfunc "ClearVariables";
     set @npcname$, "Doge ATM";

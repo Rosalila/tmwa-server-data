@@ -1,6 +1,6 @@
 //
 
-doge-1.gat,45,60,0|script|Faucet|420,
+doge-1.gat,45,60,0|script|Faucet|901,
 {
     callfunc "ClearVariables";
     callfunc "DailyQuestPoints";
